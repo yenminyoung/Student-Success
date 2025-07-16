@@ -1,0 +1,50 @@
+***Math***
+Model: Random Forest
+Parameters: {
+	'max_depth': None, 
+	'max_features': None, 
+	'min_samples_split': 2, 
+	'n_estimators': 100
+}
+
+Evaluation Metrics: {
+	'accuracy': 0.730435,
+	'precision': 0.730435,
+	'recall': 0.730435,
+	'f1': 0.730435, 
+	'roc_auc': 0.725179
+}
+
+Most important features:
+failures_mat           0.137687
+absences_mat           0.106330
+age                    0.066180
+freetime_mat           0.048621
+goout_mat              0.047876
+
+
+
+
+***Portuguese***
+Model: Random Forest
+Parameters: {
+	'max_depth': None, 
+	'max_features': 'log2', 
+	'min_samples_split': 5, 
+	'n_estimators': 100
+}
+
+Evaluation Metrics: {
+	'accuracy': 0.886957,
+	'precision': 0.886957,
+	'recall': 0.886957,
+	'f1': 0.886957, 
+	'roc_auc': 0.948373
+}
+
+Most important features:
+higher_por_yes         0.094437
+Dalc_por               0.060650
+freetime_por           0.060169
+goout_por              0.055736
+famrel_por             0.050057
